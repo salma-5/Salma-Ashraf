@@ -1,0 +1,22 @@
+{
+  "name": "instabug_api_challenge",
+  "version": "1.0.0",
+  "description": "Instabug Api Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 5000"
+  },
+  "author": "Salma Ashraf",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "faker": "^5.5.3",
+    "request": "^2.88.2",
+    "supertest": "^6.1.6"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "mocha": "^9.1.3"
+  }
+}
